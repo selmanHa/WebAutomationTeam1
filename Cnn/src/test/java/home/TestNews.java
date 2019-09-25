@@ -13,6 +13,10 @@ public class TestNews extends CommonAPI {
     Assert.assertEquals(actualTitle,title);
 
     }
+    @Test
+    public void test2(){
+
+    }
 
 }
 
