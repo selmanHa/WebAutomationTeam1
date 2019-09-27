@@ -25,7 +25,7 @@ public class CommonAPI {
     @BeforeMethod
     public void setUp(String url) {
 
-        System.setProperty("webdriver.chrome.driver", "/Users/sams/Desktop/teamWork/WebAutomationTeam1/Generic/web-driver/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "../Generic/browser_driver/chromedriver");
         //System.setProperty("webdriver.chrome.driver", "/Users/abdibare/Documents/intelliJ2019/seleniumproject1/browserdriver/chromedriver");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
